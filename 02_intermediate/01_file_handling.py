@@ -5,3 +5,7 @@ with open("data.txt", "w") as f:
 # Append file
 with open("data.txt", "a") as f:
     f.write("Intermediate Level\n")
+
+# Read file
+with open("data.txt", "r") as f:
+    print(f.read())
